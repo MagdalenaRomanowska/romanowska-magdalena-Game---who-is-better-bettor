@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: darken(rgb(7, 7, 66), 3%);
+  color: white;
+  letter-spacing: 0.5px;
+  overflow-y: scroll;  //pasek przewijania będzie zawsze widoczny.
+}
+
+:global(.container) {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@import "./typography.scss";

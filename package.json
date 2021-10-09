@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "[romanowska-magdalena-Game---who-is-better-bettor] build --output public",
+    "build": "build --output public",
     "lint": "eslint src/",
     "server": "http-server dist"
   },

@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "build --output public",
     "lint": "eslint src/",
     "server": "http-server dist"
   },

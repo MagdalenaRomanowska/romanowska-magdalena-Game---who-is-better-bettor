@@ -1,4 +1,4 @@
-.main {
+.Main {
   background-image: url('https://i.postimg.cc/0js3X1Fq/pexels-murilo-papini-6215967-darker4centered.jpg');
   background-size: cover;
   height: 100vh;  
@@ -9,31 +9,31 @@
   text-transform: uppercase;
 }
 
-.questionsInline {
+.QuestionsInline {
   display: inline-flex;
 }
 
-.line {
+.Line {
   width: 97vw;
   height: 2px;
   background-color: rgb(255, 187, 0);
 }
 
-.title {
-  padding: 24px 0 0 7vw;
+.Title {
+  padding: 12px 0 0 7vw;
   font-size: 16px;
   color: white;  
 }
 
-.titleGame {
-  padding: 48px 0 48px 8px;
+.TitleGame {
+  padding: 32px 0 32px 8px;
   text-align: center;
   font-size: 72px;
   font-weight: bold;
   color: rgb(255, 187, 0);
 }
 
-.gameExplanation {
+.GameExplanation {
   padding: 8px 7vw;
   font-size: 15px;
   color: rgb(255, 200, 47);
@@ -41,97 +41,75 @@
   text-align: justify;
 }
 
-.users {
-  .user1, .user2 {
-    margin-left: 20px;
-  }
+.Users {
+  margin-left: 0;
 }
 
-.userData {
+.UserData {
   text-align: center;
   font-size: 20px;
   margin-top: 8px;
 }
 
-.inputName {
+.InputName {
   margin: 8px 7vw;
   height: fit-content;
+  width: 34vw;
   padding: 4px;
   font-size: 16px;
-  width: 35vw;
   border-radius: 5px;
 }
 
-.numberOfWallsInputs {
-  margin-left: 31vw;
+.NumberOfWallsInputs {
+  margin-left: 25vw;
 }
 
-.numberOfWallsInput {
+.NumberOfWallsInput {  
   width: 10vw;
-  font-size: 24px;
+  margin: 2vh 2.5vw;
+  font-size: 16px;
   text-align: center;
-  margin: 16px 1vw;
+  
 }
 
-.throwsAmount {
+.ThrowsAmount {
   position: relative;
 }
 
-.throwsAmountInput {
+.ThrowsAmountInput {
   position: absolute; 
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%);
   margin: 32px 0;
   width: 10vw;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
 }
 
-.result {
+.Result {
   position: relative;
   margin: 8px;
 }
 
-.buttonToClick {
+.ButtonToClick {
   position: absolute; 
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%);
-  margin-top: 120px;
+  margin-top: 100px;
   border-radius: 5px;
   height: 64px;
-  width: 880px;
+  width: 20vw;
   font-weight: bold; 
-  padding: 8px 0 24px 8px;
-  font-size: 32px;
+  padding: 8px 0 8px 8px;
+  font-size: 20px;
   background-color: rgb(255, 187, 0);
   text-transform: uppercase;
   color: rgb(0, 0, 65);
 }
 
-.buttonToClickText i {
-  font-size: 24px;
-  padding: 0 16px;
-  //color: rgb(0, 0, 65);
-  -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-.buttonToClickText i:nth-of-type(3) {
-  margin-right: 40px;
-}
-
-.buttonToClickText i:nth-of-type(4) {
-  margin-left: 40px;
-}
-
-.resultText {
+.ResultText {
   margin-top: 180px;
   font-size: 40px;
   color: rgb(255, 187, 0);
